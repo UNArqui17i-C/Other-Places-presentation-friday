@@ -7,7 +7,7 @@ services:
 
   app:
     #build: .
-    image: jaavargasarunal/visit-places-rails-final
+    image: jaavargasar/visitplacesrailsfinal_app
     env_file: .env
     environment:
       RAILS_ENV: production
